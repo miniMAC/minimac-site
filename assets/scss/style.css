@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/*
+ * File SCSS base per minimac-site
+ * Compilalo LOCALMENTE con i tuoi tool (es. sass assets/scss/style.scss ../assets/css/custom.css)
+ * 
+ * Aggiungi qui le tue variabili, mixin, stili custom.
+ * Tailwind è già incluso separatamente come CSS compilato.
+ */
+body {
+  background: #fff;
+  color: #111;
+}/*# sourceMappingURL=style.css.map */
