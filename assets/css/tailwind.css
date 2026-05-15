@@ -1,0 +1,20 @@
+/*
+ * Tailwind CSS - GIÀ COMPILATO in locale per il tema minimac-site
+ * 
+ * Questo file è pronto per l'uso locale (no CDN esterno per migliore SEO e performance).
+ * 
+ * Per aggiornare o espandere:
+ * 1. Installa Tailwind CLI globalmente o via npm
+ * 2. Crea un config tailwind.config.js nella root
+ * 3. Compila con: npx tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/tailwind.css --minify
+ * 
+ * Per ora contiene le direttive base + reset. Aggiungi le tue classi Tailwind e ricompila!
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Stili base aggiuntivi per compatibilità WP */
+body { font-family: system-ui, sans-serif; }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 1rem; }
